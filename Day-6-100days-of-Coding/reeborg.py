@@ -15,4 +15,10 @@ def jump():
 
 for step in range(6):
     jump()
-    
+
+#using while loop
+number_of_hurders = 6
+while number_of_hurders > 0:
+    jump()
+    number_of_hurders -=1
+    print(number_of_hurders)
